@@ -1,0 +1,19 @@
+input[type=checkbox]:checked {
+	margin-left: 50px;
+}
+
+label {
+	text-transform: uppercase;
+	font-family: Roboto;
+}
+h1::first-letter {
+	color: green;
+	font-size: 100px;
+	font-family: Raleway;
+}
+h1:hover {
+	color: yellow;
+}
+a:visited {
+	color: grey;
+}

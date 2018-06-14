@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Registration</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<label for="first_name">First Name: </label>
+		<input id="first_name" type="text" required="true" placeholder="John" name="name">
+
+		<label for="last_name">Last Name: </label>
+		<input id="last_name" type="text" required="true" placeholder="Smith" name="name">
+
+		<div>
+		<label for="male">Male </label>
+		<input id="male" type="radio" name="gender" value="MALE">
+		<label for="female">Female </label>
+		<input id="female" type="radio" name="gender" value="FEMALE">
+		<label for="other">Other </label>
+		<input id="other" type="radio" name="gender" value="OTHER">
+		</div>
+
+		<div>
+		<label for="email">Email: </label>
+		<input id="email" type="email" required placeholder="your@email.com">
+		<label for="pswd">Password: </label>
+		<input id="pswd" type="Password" required="true" pattern=".{5, 10}" title="5 to 10 characters">
+		</div>
+
+		<div>
+		<label for="bday">Birthday: </label>
+		<select id="bday" name="month">
+			<option value="Jan">January</option>
+			<option value="Feb">February</option>
+			<option value="Mar">March</option>
+		</select>
+		<select id="bday" name="day">
+			<option value="1">05</option>
+			<option value="2">04</option>
+			<option value="3">03</option>
+		</select>
+		<select name="Year">
+			<option value="1998">1998</option>
+			<option value="1999">1999</option>
+			<option value="2000">2000</option>
+		</select>
+		</div>
+
+		<div>
+		<label for="agree">I agree to the terms and conditions </label>
+		<input id="agree" type="checkbox" name="terms" required="true">
+		</div>
+
+		<input type="submit">
+	</form>
+
+	<a href="http://www.google.co.in">Wartortle</a>
+
+</body>
+</html>
